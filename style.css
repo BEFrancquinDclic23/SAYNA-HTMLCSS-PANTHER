@@ -1,0 +1,38 @@
+/* Les indications pour des polices */
+@font-face{
+    font-family: 'font-TITREh1';
+    src: url();
+}
+@font-face{
+    font-family: 'font-TITREh2';
+    src: url();
+}
+@font-face {
+    font-family: 'font-TITREh2ENIGME';
+    src: url();
+}
+@font-face{
+    font-family: 'font-Text_cit_footer';
+    src: url();
+}
+
+colgroup {
+    --pink : #F2CEF2; 
+    --Pink_a: #9E91B7;
+    --pink_b: #DF99F2; 
+    --white: #FFFF;
+    --blue: #3D2DA6;
+    --blue_a: #07338C;
+    --blue_b: #021740;
+    
+}
+
+
+body {
+    background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png);
+
+}
+/*Les éléments HEADER*\
+
+hea
+
