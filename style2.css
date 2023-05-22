@@ -26,29 +26,45 @@ colgroup {
     --blue_b: #021740;
     
 }
-/*Réinitialisation des styles*/
 /*Fonds du contenu*/
 body {
   background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png);
-  }
 
+}
+.PersonnageP {
+  float: left;
+  margin-right: 20px; /* Ajouter une marge à gauche de l'image (facultatif) */
+  }
+.formulaire{
+
+  background-image: url(assets/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+  position: relative;
+  float: center ;
+  margin: auto;
+  
+}
 /*POLICE pour le contenu*/
-h1{
-  font-family: 'font-TITREh1';
+h2 {
+  font-family: 'font-TITREh2';
   color: #9E91B7;
   font-weight: lighter;
   font-size: 68px;
   line-height: 0px;
 }
 
-h2{
-  font-family: "font-TITREh2", serif;
+.wakanda{
+  font-family: "font-TITREh2ENIGME", serif;
   font-weight: lighter;
   font-size: 32px;
   color: #9E91B7;
  }
 
  p {
+  font-family: 'font-Text_cit_footer';
+  font-size: 16px;
+  color: #FFFF;
+ }
+ .lienvp a {
   font-family: 'font-Text_cit_footer';
   font-size: 16px;
   color: #FFFF;
@@ -60,59 +76,28 @@ h2{
   color: #FFFF;
  }
 
-/* Styles pour les animations dans le header */
 
-
-nav {
-  text-indent: 50px;
-  margin-right: 50px; 
-  float: right;
- }
-/* Soulignement des rubriques du menu au survol */
-.hover  {
-    text-decoration: none;
-    color: white;
+/*Positionnement*/
+.presentation {
+  float: center;
+  margin-left: 150px;
+  width: 600px;
+  text-align: left;
 }
-
-.hoverS {
-  text-decoration: underline;
-  color: #FFFF;
-}
-/* Soulignement de la rubrique active */
- .active {
-    text-decoration: underline;
-    color: #9E91B7 ;
-}
-/*Positionnement et style de la présentation*/
-
-.presentation  {
-  margin: 100px 100px 150px 150px
- 
-}
-
-
-.Personnage {
-  right: 100px;
-  margin-right: 50px; /* Ajouter une marge à gauche de l'image (facultatif) */
-  float: right;
-}
-
-li {
+ li {
   font-family: "font-TITREh2" ;
-  padding: 50px;
+  float: right;
   display: inline;
-  /* Ajouter une marge à droite pour espacer les liens (facultatif) */
- }
- .footer2_1 {
-  margin: 25px;
-  margin-left: 100px;
- }
+  margin-left: 50px;
+  margin-right: 50px; /* Ajouter une marge à droite pour espacer les liens (facultatif) */
+/*Personnage à Droite*/}
 
- footer {
-  background-image: url(assets/Illustrations\ +\ Logo/Allpages/back_footer.png);
- }
 
-/*Personnage à Droite*/
+
+
+
+
+
 
 /*Faire un bouton*/
   .mon-bouton {
