@@ -29,8 +29,20 @@ colgroup {
 /*Réinitialisation des styles*/
 /*Fonds du contenu*/
 body {
-  background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png);
+  background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png); 
+  background-repeat: no-repeat;
+
   }
+footer {
+    background-image: url(assets/Illustrations\ +\ Logo/Allpages/back_footer.png);
+    background-repeat: no-repeat;
+  
+   }
+
+form{
+  background-image: url(assets/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+  background-repeat: no-repeat;
+}
 
 /*POLICE pour le contenu*/
 h1{
@@ -62,7 +74,6 @@ h2{
 
 /* Styles pour les animations dans le header */
 
-
 nav {
   text-indent: 50px;
   margin-right: 50px; 
@@ -83,36 +94,102 @@ nav {
     text-decoration: underline;
     color: #9E91B7 ;
 }
-/*Positionnement et style de la présentation*/
-
-.presentation  {
-  margin: 100px 100px 150px 150px
- 
-}
-
-
-.Personnage {
-  right: 100px;
-  margin-right: 50px; /* Ajouter une marge à gauche de l'image (facultatif) */
-  float: right;
-}
-
 li {
   font-family: "font-TITREh2" ;
   padding: 50px;
-  display: inline;
+  display: inline;}
+
+/*Positionnement et style de la présentation*/
+
   /* Ajouter une marge à droite pour espacer les liens (facultatif) */
- }
+
+  .presentation {
+    text-align: left;
+    margin: 200px 200px 200px;
+    float: left;
+  }
+  .Personnage img {
+    width: 1100px;
+    position:absolute; right: 0;
+  }
+  
+
  .footer2_1 {
-  margin: 25px;
-  margin-left: 100px;
+  margin: 25px 125px;
  }
 
- footer {
-  background-image: url(assets/Illustrations\ +\ Logo/Allpages/back_footer.png);
- }
 
-/*Personnage à Droite*/
+/*Section1 style*/
+.section1 {
+  position: relative;
+  clear: both;
+  
+}
+
+.section1 .mbj,
+.section1 .gal,
+.section1 .soeur {
+display: inline-block;
+margin-right: 300px;
+z-index: 30;
+}
+.section1.mbj{
+  position:absolute;
+float: left;
+}
+.articlea {
+  background-color:#021740 ;
+  padding: 30px 0 40px 50px ;
+  position: relative top;
+  float: left;
+
+}
+.section1 .gal{
+  height: 120%;
+
+}
+.section1.soeur {
+  margin: right 125px;
+
+}
+
+
+
+.articleb {
+  background-color:#021740 ;
+  padding: 20px 20px;
+  width: 500px;
+
+}
+
+/*section 2 gauche*/
+.gauche , .droite {
+  display: inline-block;
+}
+
+.gauche{
+  margin-left:  175px;
+}
+.gauche P {
+  text-align: justify;
+  width: 53%;
+}
+.droite{
+  float: right;
+  width: 40%;
+}
+
+.info {
+  color: #07338C;
+}
+span{
+  font-size: large ;
+}
+/*Footer*/
+
+.back_footer {
+  margin-left: 125px;
+}
 
 /*Faire un bouton*/
   .mon-bouton {
@@ -147,8 +224,9 @@ li {
   .bouton-degrade:hover {
     background-image: linear-gradient(to right, #00ff00, #ff0000); /* Dégradé de gauche à droite inversé au survol */
   }
-/*Les éléments HEADER*/
+/*Les éléments */
 
-
+/*Responsive*/
+@media all (max-width: 1280px)
 
 
