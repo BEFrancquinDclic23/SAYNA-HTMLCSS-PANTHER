@@ -26,24 +26,6 @@ colgroup {
     --blue_b: #021740;
     
 }
-/*Réinitialisation des styles*/
-/*Fonds du contenu*/
-body {
-  background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png); 
-  background-repeat: no-repeat;
-
-  }
-footer {
-    background-image: url(assets/Illustrations\ +\ Logo/Allpages/back_footer.png);
-    background-repeat: no-repeat;
-  
-   }
-
-form{
-  background-image: url(assets/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
-  background-repeat: no-repeat;
-}
-
 /*POLICE pour le contenu*/
 h1{
   font-family: 'font-TITREh1';
@@ -72,124 +54,124 @@ h2{
   color: #FFFF;
  }
 
-/* Styles pour les animations dans le header */
+ li {
+  font-family: "font-TITREh2" ;
+  color:#FFFF;
+  font-weight: 100;
+  }
+/*Fonds du contenu*/
 
-nav {
-  text-indent: 50px;
-  margin-right: 50px; 
-  float: right;
- }
-/* Soulignement des rubriques du menu au survol */
-.hover  {
-    text-decoration: none;
-    color: white;
+body {
+  background-image: url(assets/IllustrationsLogo/Allpages/arrière_plan.png);
+  background-repeat: no-repeat;
+} 
+
+/*HEADER STYLES /Styles pour les animations dans le header */
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
-
-.hoverS {
-  text-decoration: underline;
+a {
+  padding: 30px;
+}
+ a.hover{
+  text-decoration: none;
   color: #FFFF;
-}
-/* Soulignement de la rubrique active */
- .active {
+ }
+   a.hover:hover { /* Soulignement des rubriques du menu au survol */
+  text-decoration: underline;
+  color: white;
+  }
+    
+  a.active { /* Soulignement de la rubrique active */
     text-decoration: underline;
     color: #9E91B7 ;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0;
+  
 }
-li {
-  font-family: "font-TITREh2" ;
-  padding: 50px;
-  display: inline;}
+ul{
+  display: flex;
+list-style: none;  
+}
+
 
 /*Positionnement et style de la présentation*/
+.section1{
+  display: flex;
+  align-items: center;
+}
 
-  /* Ajouter une marge à droite pour espacer les liens (facultatif) */
+.section1 img {
+  float: left;
+}
 
-  .presentation {
-    text-align: left;
-    margin: 200px 200px 200px;
-    float: left;
-  }
-  .Personnage img {
-    width: 1100px;
-    position:absolute; right: 0;
-  }
-  
+ 
+/*Positionnement et style de la section 2 */
+.section2{
+  display: flex;
+  align-items: center;
 
- .footer2_1 {
-  margin: 25px 125px;
+}
+
+/*Positionnement et style de la section 3 */
+.container2 {
+  width: 75%;
+  margin: 0 auto;
+  display:flex;
+  margin-top:60px
+}
+
+.gauche {
+  text-align: justify;
+  width: 60%;
+  margin-right: 50px;
+  padding-right: 100px;
+}
+
+.droite {
+  width: 40%;
+  text-align: center;
+}
+
+.droite img {
+  z-index: 1;
+  float: center;
+}
+
+.nom {
+  color:#010612;
  }
 
-
-/*Section1 style*/
-.section1 {
-  position: relative;
-  clear: both;
-  
+.btn-group {
+  display: flex;
 }
 
-.section1 .mbj,
-.section1 .gal,
-.section1 .soeur {
-display: inline-block;
-margin-right: 300px;
-z-index: 30;
-}
-.section1.mbj{
-  position:absolute;
-float: left;
-}
-.articlea {
-  background-color:#021740 ;
-  padding: 30px 0 40px 50px ;
-  position: relative top;
-  float: left;
-
-}
-.section1 .gal{
-  height: 120%;
-
-}
-.section1.soeur {
-  margin: right 125px;
+.btn-group p {
+  margin-left: 10px;
+  padding:10px 20px;
+  text-align: center;
+  background-color: #3D2DA6;
+  border-radius: 10%;
 
 }
 
-
-
-.articleb {
-  background-color:#021740 ;
-  padding: 20px 20px;
-  width: 500px;
-
-}
-
-/*section 2 gauche*/
-.gauche , .droite {
-  display: inline-block;
-}
-
-.gauche{
-  margin-left:  175px;
-}
-.gauche P {
-  text-align: justify;
-  width: 53%;
-}
-.droite{
-  float: right;
-  width: 40%;
+.droite .contour {
+  padding-top: 200px;
+  background-color: aliceblue;
+  z-index: -1;
 }
 
 .info {
-  color: #07338C;
+  text-align: left;
+  color: #021740;
 }
-span{
-  font-size: large ;
-}
-/*Footer*/
 
-.back_footer {
-  margin-left: 125px;
-}
 
 /*Faire un bouton*/
   .mon-bouton {
@@ -225,8 +207,5 @@ span{
     background-image: linear-gradient(to right, #00ff00, #ff0000); /* Dégradé de gauche à droite inversé au survol */
   }
 /*Les éléments */
-
-/*Responsive*/
-@media all (max-width: 1280px)
 
 

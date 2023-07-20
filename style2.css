@@ -28,7 +28,7 @@ colgroup {
 }
 /*Fonds du contenu*/
 body {
-  background-image: url(assets/Illustrations\ +\ Logo/Allpages/arrière_plan.png);
+  background-image: url(assets/IllustrationsLogo/Allpages/arrière_plan.png);
 
 }
 .PersonnageP {
@@ -37,7 +37,7 @@ body {
   }
 .formulaire{
 
-  background-image: url(assets/Illustrations\ +\ Logo/Accueil/Pantherhome7.png);
+  background-image: url(assets/IllustrationsLogo/Accueil/Pantherhome7.png);
   position: relative;
   float: center ;
   margin: auto;
@@ -76,6 +76,13 @@ h2 {
   color: #FFFF;
  }
 
+  li {
+    font-family: "font-TITREh2" ;
+    color:#FFFF;
+    font-weight: 100;
+  }
+
+
 
 /*Positionnement*/
 .presentation {
@@ -84,17 +91,74 @@ h2 {
   width: 600px;
   text-align: left;
 }
- li {
-  font-family: "font-TITREh2" ;
-  float: right;
-  display: inline;
-  margin-left: 50px;
-  margin-right: 50px; /* Ajouter une marge à droite pour espacer les liens (facultatif) */
-/*Personnage à Droite*/}
 
+/*HEADER STYLES /Styles pour les animations dans le header */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  padding: 30px;
+}
+ a.hover{
+  text-decoration: none;
+  color: #FFFF;
+ }
+   a.hover:hover { /* Soulignement des rubriques du menu au survol */
+  text-decoration: underline;
+  color: white;
+  }
+    
+  a.active { /* Soulignement de la rubrique active */
+    text-decoration: underline;
+    color: #9E91B7 ;
+  }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0;
+  
+}
+ul{
+  display: flex;
+list-style: none;  
+}
 
+/*Design de la section 1 et ses styles*/
+#section1{
+  background-image: url(assets/IllustrationsLogo/Wakanda/Pantherwakanda1.png);
+  background-repeat: no-repeat;
+ width: 100%;
+ height: 1000px;
 
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 500px;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 22px;
+  padding: 10px 60px;
+  margin: 40px 30px;
+  background: linear-gradient(40deg,#eddebf8a , #8900096f);
+}
+
+#hero .fleche {
+  display: block;
+  margin: 0 auto;
+  margin-top: 300px;
+}
 
 
 
